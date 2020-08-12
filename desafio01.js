@@ -1,4 +1,4 @@
-// Cálculo do IMC 
+// Cálculo do IMC  
 
 const nomeImc = 'Bruno'
 const peso = 62
@@ -34,3 +34,5 @@ if (sexo == "M") {
         console.log(`${nomeAposentar}, você ainda não pode se aposentar!`)
     }
 }
+
+// concluido
