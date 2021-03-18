@@ -1,0 +1,39 @@
+{% extends "layout.njk" %}
+
+{%block head%}
+<title>Conteúdos</title>
+{% endblock %}
+
+{% block content %}
+
+    <section class="cards">
+        {% for item in data %}
+        <div class="card" id="{{ item.id }}">
+            <img src="{{ item.img_url }}" alt="{{ item.title }}">
+            <h1>{{ item.title }}</h1>
+            <h4>{{ item.autor }}</h4>
+            <p>Tempo de leitura: {{ item.duration }}</p>
+        </div>
+        {% endfor %}
+    </section>
+
+    <section class="modal-overlay">
+        <div class="modal">
+            <a class="close-modal">
+                <i class="material-icons">close</i>
+            </a>
+            <a class="maximize-modal">
+                <i class="material-icons">crop_square</i>
+            </a>
+            <div class="modal-content">
+                <iframe src="" frameborder="0"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <script src="/scripts.js"></script>
+
+ </body>
+</html>
+
+{% endblock %}

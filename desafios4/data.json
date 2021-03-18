@@ -1,0 +1,45 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/6643122?s=400&u=1e9e1f04b76fb5374e6a041f5e41dce83f3b5d92&v=4",
+      "name": "asdasdasdas",
+      "birth": 926467200000,
+      "email": "student@schoolmanager.com",
+      "school_year": "F8",
+      "workload": "60"
+    }
+  ],
+  "teachers": [
+    {
+      "id": 5,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2254731?s=400&u=4fcc8ca9672eeb41ea800271831b7c687bc17054&v=4",
+      "name": "Diego Fernandes",
+      "birth": 640224000000,
+      "school_level": "university",
+      "class_type": "P",
+      "services": "HTML, CSS, Javascript",
+      "created_at": 1611212319642
+    },
+    {
+      "id": 6,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2254731?s=400&u=4fcc8ca9672eeb41ea800271831b7c687bc17054&v=4",
+      "name": "Diego Fernandes",
+      "birth": 671760000000,
+      "school_level": "university",
+      "class_type": "P",
+      "services": "HTML, CSS, Javascript, React",
+      "created_at": 1612030975026
+    },
+    {
+      "id": 7,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2254731?s=400&u=4fcc8ca9672eeb41ea800271831b7c687bc17054&v=4",
+      "name": "Diego Fernandes",
+      "birth": 671760000000,
+      "school_level": "university",
+      "class_type": "P",
+      "services": "HTML, CSS, Javascript, React",
+      "created_at": 1612031144999
+    }
+  ]
+}

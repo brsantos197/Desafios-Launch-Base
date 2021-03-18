@@ -73,6 +73,7 @@ header {
 .card {
     width: 300px;
     background-color: #6c4fbb;
+    display: grid;
 }
 
 .card img {
@@ -142,3 +143,28 @@ iframe {
     top: 15%;
 }
 
+.not-found {
+    margin-top: 300px;
+    text-align: center;
+    color: #ccc;
+    font-size: 84px;
+}
+
+.new-cards {
+    max-width: 900px;
+    text-align: center;
+    margin: 80px auto;
+}
+
+.new-card {
+    width: 100% ;
+    background-color: #6c4fbb;
+    display: grid;
+}
+
+.link {
+    color:#ccc;
+    font-size: 24px;
+    line-height: 34px;
+    text-decoration: none;
+}

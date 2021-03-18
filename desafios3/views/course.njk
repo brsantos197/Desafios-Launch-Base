@@ -1,0 +1,24 @@
+{% extends "layout.njk" %}
+
+{%block head%}
+<title>{{ item.title }}</title>
+{% endblock %}
+
+{% block content %}
+
+    <section class="new-cards">
+        <div class="card new-card" id="{{ item.id }}">
+            <img src="{{ item.img_url }}" alt="{{ item.title }}">
+            <h1>{{ item.title }}</h1>
+            <h4>{{ item.autor }}</h4>
+            <p>Tempo de leitura: {{ item.duration }}</p>
+            <a href="{{ item.url }}" class="link">Acessar</a>
+        </div>
+    </section>
+
+    <script src="/scripts.js"></script>
+
+ </body>
+</html>
+
+{% endblock %}
